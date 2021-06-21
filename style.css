@@ -41,6 +41,18 @@ nav a{
     font-weight: bold;
 }
 
+.bcd{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    text-align: left;
+    font-weight: bold;
+}
+
+#pro{
+    width: 50%;
+}
+
 @media (max-width: 768px){
     .xyz p{
         font-size: small;
@@ -52,6 +64,12 @@ nav a{
     }
     .def h4{
         font-size: small;
+    }
+    .bcd{
+        flex-direction: column;
+    }
+    #pro{
+        width: 100%;
     }
 }
 
@@ -96,14 +114,6 @@ h3{
     align-items: center;
 }
 
-.bcd{
-    margin-left: 15%;
-    margin-right: 15%;
-    display: flex;
-    text-align: left;
-    font-weight: bold;
-    padding-right: 15px;
-}
 
 .cde{
     width: 40%;
@@ -115,9 +125,6 @@ h3{
     padding-right: 15px;
 }
 
-#pro{
-    width: 30%;
-}
 #new{
     padding-right: 20px;
 }
