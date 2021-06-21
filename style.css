@@ -24,6 +24,37 @@ nav a{
     color: cornsilk;
     padding: 10px;
 }
+
+.def{
+    margin-left: 30%;
+    display: flex;
+    text-align: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.xyz{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media (max-width: 768px){
+    .xyz p{
+        font-size: small;
+    }
+    .def{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .def h4{
+        font-size: small;
+    }
+}
+
 i{
     font-size:x-large;
     padding: auto;
@@ -82,22 +113,6 @@ h3{
     text-align: left;
     font-weight: bold;
     padding-right: 15px;
-}
-
-.def{
-    margin-left: 20%;
-    display: flex;
-    text-align: left;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-.xyz{
-    margin-left: 10%;
-    margin-right: 10%;
-    display: flex;
-    text-align: center;
-    font-weight: bold;
 }
 
 #pro{
