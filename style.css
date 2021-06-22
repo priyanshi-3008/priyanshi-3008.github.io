@@ -36,6 +36,7 @@ h2{
     text-align: left;
     padding-right: 15px;
     padding-left: 15px;
+    font-weight: bold;
 }
 
 #new{
@@ -51,6 +52,7 @@ img{
     margin-right: 15%;
     display: flex;
     text-align: left;
+    font-weight: bold;
 }
 
 .bcd{
